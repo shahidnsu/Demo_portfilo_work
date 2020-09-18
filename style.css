@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins',
+    sans-serif;
+    font-family: 'Ubuntu',
+    sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    height: 800px;
+    background-image: url("images/header-bg.png");
+    
+
+}
+.half-width {
+    float: left ;
+    width: 40%;
+    
+}
+.name-text {
+    margin-top: 16%;
+    margin-left: 18%;
+}
+.name-text h1 {
+    font-size: 40px;
+}
+.name-text p {
+    padding-bottom: 20px;
+}
+.name-text h2 {
+    font-size: 35px;
+    color:orangered;
+    
+}
+
+
+.link-button {
+    text-decoration: none;
+    background-color: orangered;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color:white;
+    font-size: smaller;
+
+    
+
+}
