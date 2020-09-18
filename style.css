@@ -9,7 +9,7 @@ body{
 }
 
 .header {
-    height: 800px;
+    height: 1050px;
     background-image: url("images/header-bg.png");
     
 
@@ -17,10 +17,12 @@ body{
 .half-width {
     float: left ;
     width: 40%;
+    margin-top: 30px;
     
 }
+
 .name-text {
-    margin-top: 16%;
+    margin-top: 18%;
     margin-left: 18%;
 }
 .name-text h1 {
@@ -35,7 +37,6 @@ body{
     
 }
 
-
 .link-button {
     text-decoration: none;
     background-color: orangered;
@@ -43,7 +44,71 @@ body{
     padding: 10px 15px;
     color:white;
     font-size: smaller;
+    border-radius: 7%;
+}
 
-    
+.Biography
+{
+    height: 800px;
+    background-image: url("images/biography-bg.png");
+}
+
+.latest-work-section {
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    background-image: url("images/latest-work-bg.png");
+    background-position: right;
+}
+
+.latest-work-section h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.one-third {
+    margin-top: 3%;
+    width: 29.9%;
+    float: left;
+}
+.one-third img {
+    width:90%;
 
 }
+footer {
+    height: 500px;
+    background-image: url("images/footer-bg.png");
+}
+footer h3,h4 {
+    text-align: center;
+    font-weight: bolder;
+}
+footer h5{
+    text-align: center;
+    margin-top: 1%;
+    color:slategrey;
+    
+}
+footer p {
+    text-align: center;
+    margin-top: 2%;
+    color:slategrey;
+
+}
+.button-view {
+    height: 100px;
+    background-color: orangered;
+    width: 50%;
+    margin-left: 27%;
+}
+footer .button-view p {
+    color:white;
+    font-size: 30px;
+    padding: 20px;
+
+}
+footer .button-view p{
+  margin-top: 10px;
+}
+
