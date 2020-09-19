@@ -79,6 +79,7 @@ body{
 .showoff-area {
     text-align: center;
     background-image: url("images/footer-bg.png");
+    height: 600px;
     
 }
 .showoff-area h4 {
