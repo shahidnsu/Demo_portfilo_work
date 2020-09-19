@@ -76,39 +76,47 @@ body{
     width:90%;
 
 }
-footer {
-    height: 500px;
-    background-image: url("images/footer-bg.png");
-}
-footer h3,h4 {
+.showoff-area {
     text-align: center;
+}
+.showoff-area h4 {
+    font-size: 40px;
+}
+.showoff-area h5 {
+    font-size: 20px;
+}
+
+.showoff-area h6 {
+    font-size: 15px;
+    margin-top: -10px;
+}
+.showoff-area p {
+    color:black;
     font-weight: bolder;
 }
-footer h5{
-    text-align: center;
-    margin-top: 1%;
-    color:slategrey;
+.one-half {
+    margin-top: 5%;
+    margin-left: 22%;
+    width: 55%;
+    background-color: #ff0000;
+    padding: 10px 15px;
     
+    
+
 }
-footer p {
+.one-half p {
+    color: white;
+}
+.one-half .first-line {
+    font-size: 12px;
+}
+.one-half .second-line {
+    font-size: 25px;
+}
+footer  {
+    margin-top: 4%;
     text-align: center;
-    margin-top: 2%;
     color:slategrey;
-
-}
-.button-view {
-    height: 100px;
-    background-color: orangered;
-    width: 50%;
-    margin-left: 27%;
-}
-footer .button-view p {
-    color:white;
-    font-size: 30px;
-    padding: 20px;
-
-}
-footer .button-view p{
-  margin-top: 10px;
+    font-size: 20px;
 }
 
